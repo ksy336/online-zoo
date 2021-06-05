@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../online-zoo/pages/map/map.css">
+
+
+
+</head>
+<body>
+<!--Header starts-->
+
+<header class="header">
+    <div class="header__wrapper">
+        <div class="header__container">
+            <div class="header__logo">
+                <a class="header__logo-link" href="../../../online-zoo/pages/landing/landing.html">
+                    <img class="header__logo-img" src="../../../online-zoo/assets/icons/logo.svg" width="100px" height="57" alt="it is a logo"></a>
+                <h1 class="header__logo-zoo">Online zoo</h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="../../../online-zoo/pages/landing/landing.html" data-target="about" target="_blank">About</a></li>
+                    <li class="header__item"><a class="header__link header__link_active" href="../../../online-zoo/pages/map/map.html" data-target="contacts" target="_blank">Map</a></li>
+                    <li class="header__item"><a class="header__link" href="../../../online-zoo/pages/zoos/panda/panda.html" data-target="search" target="_blank">Zoos</a></li>
+                    <li class="header__item"><a class="contain1__link" href="../../../online-zoo/pages/notpage/not%20page.html" target="_blank">Contact us</a></li>
+                    <li class="header__item"><a class="header__link" data-target="search" href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project" target="_blank">Design</a></li>
+                </ul>
+                <div class="header__nav-close">
+                    <span class="header__nav-close-line"></span>
+                </div>
+            </nav>
+            <div class="header__burger burger">
+                <span class="burger__line"></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="main__bg">
+        <div class="main__container">
+            <div class="container__map">
+                <div class="map">
+                   <div class="map-animal-block map-eagle-block">
+                        <span class="map-animal-item eagle-item"><a class="map-animal-image eagle-image" href="./../zoos/eagles/eagles.html"></a></span>
+                        <span class="animal-title text uppercase">Eagle</span>
+                        <div class="tooltip tooltip-eagle">
+                            <span class="text uppercase">Eagle,<br></span>
+                            <span class="text">California, <span class="uppercase">USA</span></span>
+                            <div class="btn-link"><a href="../../../online-zoo/pages/zoos/eagles/eagles.html" class="description-link"> Watch online </a></div>
+                            <span class="tooltip-arrow-right"></span>
+                        </div>
+                    </div>
+                    <div class="location-sign eagle-location"></div>
+
+                    <div class="map-animal-block map-alligator-block">
+                        <span class="map-animal-item"><a class="map-animal-image alligator-image" href="../../../online-zoo/pages/zoos/alligator/alligator.html"></a></span>
+                        <span class="animal-title text uppercase">Alligator</span>
+                        <div class="tooltip">
+                            <span class="tooltip-arrow-left"></span>
+                            <span class="text uppercase">Alligator,<br></span>
+                            <span class="text">Florida, <span class="uppercase">USA<br></span></span>
+                            <div class="btn-link"><a href="../../../online-zoo/pages/zoos/alligator/alligator.html" class="description-link1"> Watch online </a></div>
+                        </div>
+                    </div>
+                    <span class="location-sign alligator-location"></span>
+
+                    <div class="map-animal-block map-gorilla-block">
+                        <span class="map-animal-item"><a class="map-animal-image gorilla-image" href="./../zoos/gorillas/gorillas.html"></a></span>
+                        <span class="animal-title text uppercase">Gorilla</span>
+                        <div class="tooltip">
+                            <span class="tooltip-arrow-left"></span>
+                            <span class="text uppercase">Gorilla,<br></span>
+                            <span class="text">Eastern <span class="uppercase">DRC</span></span>
+                            <div class="btn-link"><a href="../../../online-zoo/pages/zoos/gorillas/gorillas.html" class="description-link1"> Watch online </a></div>
+                        </div>
+                    </div>
+                    <span class="location-sign gorilla-location"></span>
+
+                    <div class="map-animal-block map-panda-block">
+                        <span class="map-animal-item"><a class="map-animal-image panda-image" href="./../zoos/panda/panda.html"></a></span>
+                        <span class="animal-title text uppercase">Panda<br>bear</span>
+                        <div class="tooltip">
+                            <span class="tooltip-arrow-left"></span>
+                            <span class="text uppercase">Panda,<br></span>
+                            <span class="text">China</span>
+                            <div class="btn-link"><a href="../../../online-zoo/pages/zoos/panda/panda.html" class="description-link1"> Watch online </a></div>
+                        </div>
+                    </div>
+                    <span class="location-sign panda-location"></span>
+                    <div class="country-usa">
+                        <p class="country-name text uppercase">USA</p>
+                    </div>
+                    <div class="country-drc">
+                        <p class="country-name text">Eastern<br><span class="uppercase">DRC</span></p>
+                    </div>
+                    <div class="country-china">
+                        <p class="country-name text">China</p>
+                    </div>
+                </div>
+            </div>
+            <div class="zoom">
+                <div class="zoom-out">
+                </div>
+                <div class="zoom-in">
+                </div>
+            </div>
+    </div>
+    </div>
+</main>
+<div class="footer__wrapper">
+    <img src ="../../assets/icons/footer_vector.svg" alt="logo" class="footer__img" />
+    <footer class="footer">
+        <div class="footer__background">
+            <div class="container contain1">
+                <div class="contain1__logo">
+                    <a class="contain1__logo-link" href="../../../online-zoo/pages/landing/landing.html">
+                        <img class="contain__logo-img" src="../../../online-zoo/assets/icons/logo.svg" width="100px" height="57" alt="it is a logo">
+                    </a>
+                </div>
+                <div class="btn2"><button class="button__footer">Donate for volunteers</button></div>
+                <ul class=" footer-menu__nav contain1__nav">
+                    <li class="footer__item"><a class="contain1__link link" href="../../../online-zoo/pages/landing/landing.html" data-target="about">About</a></li>
+                    <li class="footer__item"><a class="contain1__link link2" href="../../../online-zoo/pages/map/map.html"  target="_blank"> Map</a></li>
+                    <li class="footer__item"><a class="contain1__link link1" href="../../../online-zoo/pages/notpage/not%20page.html" target="_blank">Contact us</a></li>
+                    <li class="footer__item"><a class="contain1__link link3" href=""  target="_blank">Feedback</a></li>
+                </ul>
+
+                <ul class="contain1__social-icons">
+                    <li class="social-icons__item"><a class="contain4 social-icons__instagram" href="https://www.instagram.com/?hl=ru" target="_blank" rel="nofollow"></a></li>
+                    <li class="social-icons__item"><a class="social-icons__facebook" href="https://ru-ru.facebook.com/" target="_blank" rel="nofollow"></a></li>
+                    <li class="social-icons__item"><a class="social-icons__twitter" href="https://twitter.com/?lang=ru" target="_blank" rel="nofollow"></a></li>
+                    <li class="social-icons__item"><a class="social-icons__youtube" href="https://www.youtube.com/" target="_blank"></a></li>
+                </ul>
+            </div>
+            <div class="container contain2">
+                <div class="contain2__logo">
+                    <div class="contain2 logo1"><img src="../../assets/icons/rsschool.svg" alt="rolling" title="Rolling Scopes School"></div>
+                    <div class="contain2 logo2"><img src="../../assets/icons/digital.svg" alt="digital" title="Yem Digital"></div>
+                </div>
+                <div class="contain3 info">
+                    <div class="contain3__copy"><span class="copy__copy"> Copyright ©RSSchool and ©Yem Digital 2020 - 2021</span></div>
+                    <div class="contain3 author"> <span class="copy__copy1"> Grigoreva Margarita</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src=""> </script>
+</body>
+</html>

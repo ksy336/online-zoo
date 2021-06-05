@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../online-zoo/pages/zoos/panda/panda.css">
+</head>
+<body>
+<!--Header starts-->
+
+<header class="header">
+    <div class="header__wrapper">
+        <div class="header__container">
+            <div class="header__logo">
+                <a class="header__logo-link" href=../../landing/landing.html>
+                    <img class="header__logo-img" src="../../../assets/icons/logo.svg" width="100px" height="57" alt="it is a logo"></a>
+                <h1 class="header__logo-zoo">Online zoo</h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="../../landing/landing.html" data-target="about" target="_blank">About</a></li>
+                    <li class="header__item"><a class="header__link " href="../../map/map.html" data-target="contacts" target="_blank">Map</a></li>
+                    <li class="header__item"><a class="header__link header__link_active" href="../../../../online-zoo/pages/zoos/panda" data-target="search" target="_blank">Zoos</a></li>
+                    <li class="header__item"><a class="header__link item4" href="../../../../online-zoo/pages/notpage/not%20page.html" target="_blank">Contact us</a></li>
+                    <li class="header__item"><a class="header__link" data-target="search" href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project" target="_blank">Design</a></li>
+                </ul>
+                <div class="header__nav-close">
+                    <span class="header__nav-close-line"></span>
+                </div>
+            </nav>
+            <div class="header__burger burger">
+                <span class="burger__line"></span>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="main-bg">
+        <aside class="side-bar">
+            <div class="aside-menu">
+                <div class="aside-menu-block">
+                    <div class="aside-animal-block">
+                        <span class="aside-menu-item"><a class="aside-menu-image alligator-image" href="./../../zoos/alligator/alligator.html"></a></span>
+                        <div class="tooltip">
+                            <span class="tooltip-arrow-left"></span>
+                            <span class="text uppercase">Alligator,<br></span>
+                            <span class="text">Florida, <span class="uppercase">USA<br></span></span>
+                            <div class="btn-link"><a href="../../../../online-zoo/pages/zoos/alligator/alligator.html" class="description-link"> Watch online </a></div>
+                        </div>
+                    </div>
+                    <div class="aside-animal-block">
+                        <span class="aside-menu-item"><a class="aside-menu-image panda-image active-aside" href="#!"></a></span>
+                        <div class="tooltip">
+                            <span class="tooltip-arrow-left"></span>
+                            <span class="text uppercase">Panda,<br></span>
+                            <span class="text">China</span>
+                            <div class="btn-link"><a href="../../../../online-zoo/pages/zoos/panda/panda.html" class="description-link"> Watch online </a></div>
+                        </div>
+                    </div>
+                    <div class="aside-animal-block">
+                        <span class="aside-menu-item"><a class="aside-menu-image eagle-image" href="../../zoos/eagles/eagles.html"></a></span>
+                        <div class="tooltip tooltip-eagle">
+                            <span class="tooltip-arrow-left"></span>
+                            <span class="text uppercase">Eagle,<br></span>
+                            <span class="text">California, <span class="uppercase">USA</span></span>
+                            <div class="btn-link"><a href="../../../../online-zoo/pages/zoos/eagles/eagles.html" class="description-link"> Watch online </a></div>
+                        </div>
+                    </div>
+                    <div class="aside-animal-block">
+                        <span class="aside-menu-item"><a class="aside-menu-image gorilla-image" href="../../zoos/gorillas/gorillas.html"></a></span>
+                        <div class="tooltip">
+                            <span class="tooltip-arrow-left"></span>
+                            <span class="text uppercase">Gorilla,<br></span>
+                            <span class="text">Eastern <span class="uppercase">DRC</span></span>
+                            <div class="btn-link"><a href="../../../../online-zoo/pages/zoos/gorillas/gorillas.html" class="description-link"> Watch online </a></div>
+                        </div>
+                    </div>
+                    <span class="aside-menu-item"><a class="aside-menu-image feed-button" href="#!"></a></span>
+                </div>
+            </div>
+        </aside>
+        <div class="section">
+            <div class="section section1">
+                <h2 class="about_panda">Panda</h2>
+                <div class="section-iframe">
+                    <div class="row-right-side"></div>
+                    <iframe class="first-iframe big" width="1160" height="653" src="https://www.youtube.com/embed/D0eqnda8dOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="button3"><button class="btn5">Feed</button></div>
+                <button id="switch-type">Switch slide type to <span id="type-text">one</span></button>
+                <div class="auto-carousel">
+                    <div id="wrapper">
+                        <div id="carousel">
+                            <div id="content">
+                                <div class="video">
+                                    <div class="video video1 video-item" id="second-iframe" data-video="https://www.youtube.com/embed/OObOQ2GElhA">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                            <path fill="#424242" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                                        c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                                        C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                                        S64.31,19.77,63,14.87z"/>
+                                            <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"/>
+                                        </svg>
+                                        <!-- <iframe class="second-iframe" width="275" height="155" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                    </div>
+                                    <div class="video video2 video-item" id="third-iframe" data-video="https://www.youtube.com/embed/OObOQ2GElhA">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                            <path fill="#424242" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                                        c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                                        C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                                        S64.31,19.77,63,14.87z"/>
+                                            <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"/>
+                                        </svg>
+                                        <!---<iframe  class="third-iframe" width="275" height="155" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                    </div>
+                                    <div class="video video3 video-item" id="fourth-iframe" data-video="https://www.youtube.com/embed/OObOQ2GElhA">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                            <path fill="#424242" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                                        c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                                        C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                                        S64.31,19.77,63,14.87z"/>
+                                            <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"/>
+                                        </svg>
+                                        <!-- <iframe class="fourth-iframe" width="275" height="155" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                    </div>
+                                    <div class="video video4 video-item" id="fifth-iframe" data-video="https://www.youtube.com/embed/OObOQ2GElhA">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                            <path fill="#424242" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                                        c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                                        C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                                        S64.31,19.77,63,14.87z"/>
+                                            <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"/>
+                                        </svg>
+                                        <!--<iframe class="fifth-iframe" width="275" height="155" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                    </div>
+                                    <div class="video video1 video-item" id="six-iframe" data-video="https://www.youtube.com/embed/OObOQ2GElhA">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                            <path fill="#424242" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                                        c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                                        C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                                        S64.31,19.77,63,14.87z"/>
+                                            <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"/>
+                                        </svg>
+                                        <!-- <iframe class="second-iframe" width="275" height="155" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                    </div>
+                                    <div class="video video2 video-item" id="seven-iframe" data-video="https://www.youtube.com/embed/OObOQ2GElhA">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                            <path fill="#424242" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                                        c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                                        C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                                        S64.31,19.77,63,14.87z"/>
+                                            <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"/>
+                                        </svg>
+                                        <!---<iframe  class="third-iframe" width="275" height="155" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                    </div>
+                                    <div class="video video3 video-item" id="eight-iframe" data-video="https://www.youtube.com/embed/OObOQ2GElhA">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                            <path fill="#424242" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                                        c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                                        C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                                        S64.31,19.77,63,14.87z"/>
+                                            <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"/>
+                                        </svg>
+                                        <!-- <iframe class="fourth-iframe" width="275" height="155" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                    </div>
+                                    <div class="inactive">
+                                        <div class="video video4 video-item" id="nine-iframe" data-video="https://www.youtube.com/embed/D0eqnda8dOk">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                                <path fill="#424242" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                                        c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                                        C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                                        S64.31,19.77,63,14.87z"/>
+                                                <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"/>
+                                            </svg>
+                                    </div>
+
+                                        <!--<iframe class="fifth-iframe" width="275" height="155" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                    </div>
+                                </div>
+                                <button id="prev">
+                                    <img  src="../../../assets/icons/rowl.svg" alt="left"/>
+                                </button>
+
+                                <button id="next">
+                                    <img  src="../../../assets/icons/rowr.svg" alt="right"/>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="main__information information">
+            <div class="information__grid grid">
+                <div class="grid__grid-header grid-header">
+                    <div class="grid-header__text zoo-name">
+                        ZOO: The Shenshuping Gengda Panda Center (Sichuan, China)
+                    </div>
+
+                    <div class="grid-header__text inclosure-type">
+                        ENCLOSURE TYPE: Imitation of the natural environment
+                    </div>
+                </div>
+
+                <div class="grid__information grid-cell">
+                    <div class="grid-cell__text grid-cell-text">
+                        <div class="grid-cell-text__header cell-header">Population</div>
+                        <div class="grid-cell-text__article cell-article">
+                            There are only an estimated 1600 pandas in the wild and about
+                            325 in captivity.
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="cell-button__button">
+                            <img src="../../../assets/icons/down-arrow.svg" alt="arrow_up" class="cell_button__img "/>
+                            <img src="../../../assets/icons/down-arrow.svg" alt="arrow_up" class=" up"/>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="grid__information grid-cell ">
+                    <div class="grid-cell__text grid-cell-text">
+                        <div class="grid-cell-text__header cell-header">Habitat</div>
+                        <div class="grid-cell-text__article cell-article">
+                            Bamboo will occasionally «die off» forcing pandas to migrate to
+                            other areas to find enough bamboo. Today panda habitat is
+                            limited to the mountains in only a few provinces of southwestern
+                            China.
+                        </div>
+                    </div>
+                    <div class="grid-cell__button cell-button">
+                        <button class="cell-button__button">
+                            <img src="../../../assets/icons/down-arrow.svg" alt="arrow_up" class="cell_button__img" />
+                            <img src="../../../assets/icons/down-arrow.svg" alt="arrow_up" class="up"/>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="grid__information grid-cell">
+                    <div class="grid-cell__text grid-cell-text">
+                        <div class="grid-cell-text__header cell-header">Nutrition</div>
+                        <div class="grid-cell-text__article cell-article">
+                            Bamboo is indispensable for the big panda, 99% of their food is
+                            made up of shoots and leaves of the plant. Bamboo does not have
+                            a high nutritional value. And to meet the daily energy
+                            requirement, pandas need to eat between 23 and 40 kg of
+                            evergreen per day.
+                        </div>
+                    </div>
+                    <div class="grid-cell__button cell-button">
+                        <button class="cell-button__button">
+                            <img src="../../../assets/icons/down-arrow.svg" alt="arrow_up" class="cell_button__img"/>
+                            <img src="../../../assets/icons/down-arrow.svg" alt="arrow_up" class="up"/>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="grid__information grid-cell">
+                    <div class="grid-cell__text grid-cell-text">
+                        <div class="grid-cell-text__header cell-header">
+                            Interesting facts
+                        </div>
+                        <div class="grid-cell-text__article cell-article">
+                            Pandas are slow moving and spend a considerable amount of time
+                            eating (16 — 24 hour period) and sleeping. Giant panda fur is
+                            coarse, dense and somewhat oily. Their coat keeps them warm in
+                            the cool moist climate of the mountain forests.
+                        </div>
+                    </div>
+                    <div class="grid-cell__button cell-button">
+                        <button class="cell-button__button">
+                            <img src="../../../assets/icons/down-arrow.svg" alt="arrow_up" class="cell_button__img"/>
+                            <img src="../../../assets/icons/down-arrow.svg" alt="arrow_up" class=" up"/>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="footer__wrapper">
+    <img src ="../../../assets/icons/footer_vector.svg" alt="logo" class="footer__img" />
+    <footer class="footer">
+        <div class="footer__background">
+            <div class="container contain1">
+                <div class="contain1__logo">
+                    <a class="contain1__logo-link" href="../../../../online-zoo/pages/landing/landing.html">
+                        <img class="contain__logo-img" src="../../../../online-zoo/assets/icons/logo.svg" width="100px" height="57" alt="it is a logo">
+                    </a>
+                </div>
+                <div class="btn2"><button class="button__footer">Donate for volunteers</button></div>
+                <ul class=" footer-menu__nav contain1__nav">
+                    <li class="footer__item"><a class="contain1__link link" href="../../../../online-zoo/pages/landing/landing.html" data-target="about">About</a></li>
+                    <li class="footer__item"><a class="contain1__link link2" href="../../../../online-zoo/pages/map/map.html"  target="_blank"> Map</a></li>
+                    <li class="footer__item"><a class="contain1__link link1" href="../../../../online-zoo/pages/notpage/not%20page.html" target="_blank">Contact us</a></li>
+                    <li class="footer__item"><a class="contain1__link link3" href=""  target="_blank">Feedback</a></li>
+                </ul>
+
+                <ul class="contain1__social-icons">
+                    <li class="social-icons__item"><a class="contain4 social-icons__instagram" href="https://www.instagram.com/?hl=ru" target="_blank" rel="nofollow"></a></li>
+                    <li class="social-icons__item"><a class="social-icons__facebook" href="https://ru-ru.facebook.com/" target="_blank" rel="nofollow"></a></li>
+                    <li class="social-icons__item"><a class="social-icons__twitter" href="https://twitter.com/?lang=ru" target="_blank" rel="nofollow"></a></li>
+                    <li class="social-icons__item"><a class="social-icons__youtube" href="https://www.youtube.com/" target="_blank"></a></li>
+                </ul>
+            </div>
+            <div class="container contain2">
+                <div class="contain2__logo">
+                    <div class="contain2 logo1"><img src="../../../assets/icons/rsschool.svg" alt="rolling" title="Rolling Scopes School"></div>
+                    <div class="contain2 logo2"><img src="../../../assets/icons/digital.svg" alt="digital" title="Yem Digital"></div>
+                </div>
+                <div class="contain3 info">
+                    <div class="contain3__copy"><span class="copy__copy"> Copyright ©RSSchool and ©Yem Digital 2020 - 2021</span></div>
+                    <div class="contain3 author"> <span class="copy__copy1"> Grigoreva Margarita</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="panda.js"> </script>
+</body>
+</html>

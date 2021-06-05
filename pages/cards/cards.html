@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online zoo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/151212d9a9d1e632aa020562ae4ea050?family=SceneW01-Black" rel="stylesheet"/>
+    <link rel="stylesheet" href="../cards/cards.css">
+</head>
+<body>
+<div class="popup-wrapper popup-cards">
+    <div class="cards" id="cardsBlock">
+        <div class="button6"><button class="donat__close"></button></div>
+        <form id="donatForm" class="card__front-card front-card">
+            <input  data-validated="false" type="number" name='card' class="front-card__input card-number" placeholder="Card Number">
+            <input data-validated="false" type="number" name='card' class="front-card__input mm" placeholder="MM">
+            <input data-validated="false" type="number" name='card' class="front-card__input yy" placeholder="YY">
+            <input data-validated="false" type="text" name='cardholder-name' class="front-card__input cardholder-name" placeholder="Cardholder Name">
+        </form>
+        <form action="javascript:void(0)" class="card__back-card back-card">
+            <div class="back-card__color"></div>
+            <div class="back-card__line1"></div>
+            <div class="back-card__line2"></div>
+            <div class="back-card__line3"></div>
+            <div class="back-card__line4"></div>
+            <input data-validated="false" type="number" name='cvc' class="back-card__input cvc" placeholder="CVC">
+        </form>
+        <button class="cards__button" id="donateBtn"> Donate </button>
+    </div>
+</div>
+<script src="cards.js"></script>
+</body>
+
+</html>
